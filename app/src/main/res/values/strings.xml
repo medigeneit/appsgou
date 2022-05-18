@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GOU</string>
+    <!--    <string name="app_name">GenesisOnlineUniversity</string>-->
+
+    //Headings
+    <string name="heading_one">Join and study together</string>
+    <string name="heading_two">Find your mentors</string>
+    <string name="heading_three">Explore new knowledge</string>
+    <!--    <string name="heading_fourth">Pay Anywhere</string>-->
+
+    //Description
+    <string name="desc_one">Find your best experience while studying and seeking knowledge in here</string>
+    <string name="desc_two">Find your best experience while studying and seeking knowledge in here</string>
+    <string name="desc_three">Find your best experience while studying and seeking knowledge in here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+    <string name="title_home">Explore</string>
+    <string name="title_my_course">My Course</string>
+    <string name="title_blog">Blog</string>
+    <string name="title_account">Account</string>
+    <!--    <string name="desc_fourth">Find your best experience while studying and seeking knowledge in here</string>-->
+
+</resources>

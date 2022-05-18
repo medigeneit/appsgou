@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="com_google_android_gms_fonts_certs">kjkjkjj</string-array>
+
+    <string-array name="division_wise_doctor_image_new_array">jkjkjkjkj</string-array>
+
+    <string-array name="favourite_topic_title_array">
+        <item>Anatomy</item>
+        <item>Physiology</item>
+        <item>Biochemistry</item>
+        <item>Pathology</item>
+        <item>Pharmacology</item>
+        <item>Microbiology</item>
+        <item>Forensic Medicine</item>
+        <item>Community Medicine</item>
+        <item>Surgery</item>
+        <item>Medicine</item>
+        <item>Obs. &amp; Gynae</item>
+        <item>Pediatrics</item>
+
+    </string-array>
+
+
+    <string-array name="favourite_topic_image_array">
+        <item>file:///android_asset/favourite_topic/anatomy.png</item>
+        <item>file:///android_asset/favourite_topic/physiology.png</item>
+        <item>file:///android_asset/favourite_topic/biochemistry.png</item>
+        <item>file:///android_asset/favourite_topic/pathology.png</item>
+        <item>file:///android_asset/favourite_topic/pharmacology.png</item>
+        <item>file:///android_asset/favourite_topic/microbiology.png</item>
+        <item>file:///android_asset/favourite_topic/forensic_medicine.png</item>
+        <item>file:///android_asset/favourite_topic/community_medicine.png</item>
+        <item>file:///android_asset/favourite_topic/surgery.png</item>
+        <item>file:///android_asset/favourite_topic/medicine.png</item>
+        <item>file:///android_asset/favourite_topic/obs_gynae.png</item>
+        <item>file:///android_asset/favourite_topic/pediatrics.png</item>
+
+    </string-array>
+
+    <string-array name="popular_topic_title_array">
+        <item>Workshop on Neuroimaging (CT/MRI)</item>
+        <item>Workshop on General &amp; Systemic Examination</item>
+        <item>GOU Long Case Master Program</item>
+        <item>Workshop on ECG</item>
+        <item>GOU Long Case Master Program</item>
+        <item>Workshop on ECG</item>
+        <item>Workshop on ECG</item>
+        <item>Workshop on ECG</item>
+    </string-array>
+
+
+    <string-array name="popular_topic_price_array">
+        <item>500</item>
+        <item>600</item>
+        <item>500</item>
+        <item>600</item>
+        <item>500</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+    </string-array>
+
+    <string-array name="popular_topic_image_array">
+        <item>file:///android_asset/popular_programs/popular_programms.png</item>
+        <item>file:///android_asset/popular_programs/popular_programms.png</item>
+        <item>file:///android_asset/popular_programs/popular_programms.png</item>
+        <item>file:///android_asset/popular_programs/popular_programms.png</item>
+        <item>file:///android_asset/popular_programs/popular_programms.png</item>
+        <item>file:///android_asset/popular_programs/popular_programms.png</item>
+        <item>file:///android_asset/popular_programs/popular_programms.png</item>
+        <item>file:///android_asset/popular_programs/popular_programms.png</item>
+    </string-array>
+
+    <string-array name="elibrary_image_array">
+        <item>file:///android_asset/e_library/e_library.png</item>
+        <item>file:///android_asset/e_library/e_library.png</item>
+        <item>file:///android_asset/e_library/e_library.png</item>
+        <item>file:///android_asset/e_library/e_library.png</item>
+        <item>file:///android_asset/e_library/e_library.png</item>
+        <item>file:///android_asset/e_library/e_library.png</item>
+        <item>file:///android_asset/e_library/e_library.png</item>
+        <item>file:///android_asset/e_library/e_library.png</item>
+    </string-array>
+
+    <string-array name="resources_title_array">
+        <item>Prof. Dr. Mozammel Haque</item>
+        <item>Prof. Dr. Mozammel Haque</item>
+        <item>Prof. Dr. Mozammel Haque</item>
+        <item>Prof. Dr. Mozammel Haque</item>
+        <item>Prof. Dr. Mozammel Haque</item>
+        <item>Prof. Dr. Mozammel Haque</item>
+        <item>Prof. Dr. Mozammel Haque</item>
+        <item>Prof. Dr. Mozammel Haque</item>
+    </string-array>
+
+    <string-array name="resources_image_array">
+        <item>file:///android_asset/resources/resources.png</item>
+        <item>file:///android_asset/resources/resources.png</item>
+        <item>file:///android_asset/resources/resources.png</item>
+        <item>file:///android_asset/resources/resources.png</item>
+        <item>file:///android_asset/resources/resources.png</item>
+        <item>file:///android_asset/resources/resources.png</item>
+        <item>file:///android_asset/resources/resources.png</item>
+        <item>file:///android_asset/resources/resources.png</item>
+    </string-array>
+
+</resources>

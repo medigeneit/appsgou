@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@+id/exploreFragment">
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_home"-->
+<!--        android:name="com.genesis.genesisexamsystem.ui.home.HomeFragment"-->
+<!--        android:label="@string/title_home"-->
+<!--        tools:layout="@layout/fragment_home" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_navigation_home_to_moreFragment"-->
+<!--            app:destination="@id/moreFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_navigation_home_to_profileFragment"-->
+<!--            app:destination="@id/profileFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_navigation_home_to_noticeFragment"-->
+<!--            app:destination="@id/noticeFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/moreFragment"-->
+<!--        android:name="com.genesis.genesisexamsystem.ui.more.MoreFragment"-->
+<!--        android:label="More"-->
+<!--        tools:layout="@layout/fragment_more" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_moreFragment_to_navigation_home"-->
+<!--            app:destination="@id/navigation_home" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/noticeFragment"-->
+<!--        android:name="com.genesis.genesisexamsystem.ui.notice.NoticeFragment"-->
+<!--        android:label="Notice"-->
+<!--        tools:layout="@layout/fragment_notice" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_noticeFragment_to_navigation_home"-->
+<!--            app:destination="@id/navigation_home" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/profileFragment"-->
+<!--        android:name="com.genesis.genesisexamsystem.ui.profile.ProfileFragment"-->
+<!--        android:label="Profile"-->
+<!--        tools:layout="@layout/fragment_profile" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_navigation_home"-->
+<!--            app:destination="@id/navigation_home" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_editProfileFragment"-->
+<!--            app:destination="@id/editProfileFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/editProfileFragment"-->
+<!--        android:name="com.genesis.genesisexamsystem.ui.profile.EditProfileFragment"-->
+<!--        android:label="Edit Profile"-->
+<!--        tools:layout="@layout/fragment_edit_profile" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_editProfileFragment_to_profileFragment"-->
+<!--            app:destination="@id/profileFragment" />-->
+<!--    </fragment>-->
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.genesis.genesisonlineuniversity.ui.account.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_accountFragment_to_exploreFragment"
+            app:destination="@id/exploreFragment" />
+        <action
+            android:id="@+id/action_accountFragment_to_blogFragment"
+            app:destination="@id/blogFragment" />
+        <action
+            android:id="@+id/action_accountFragment_to_myCourseFragment"
+            app:destination="@id/myCourseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blogFragment"
+        android:name="com.genesis.genesisonlineuniversity.ui.blog.BlogFragment"
+        android:label="fragment_blog"
+        tools:layout="@layout/fragment_blog" >
+        <action
+            android:id="@+id/action_blogFragment_to_exploreFragment"
+            app:destination="@id/exploreFragment" />
+        <action
+            android:id="@+id/action_blogFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.genesis.genesisonlineuniversity.ui.explore.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" >
+        <action
+            android:id="@+id/action_exploreFragment_to_myCourseFragment"
+            app:destination="@id/myCourseFragment" />
+        <action
+            android:id="@+id/action_exploreFragment_to_blogFragment"
+            app:destination="@id/blogFragment" />
+        <action
+            android:id="@+id/action_exploreFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myCourseFragment"
+        android:name="com.genesis.genesisonlineuniversity.ui.my_course.MyCourseFragment"
+        android:label="fragment_my_course"
+        tools:layout="@layout/fragment_my_course" >
+        <action
+            android:id="@+id/action_myCourseFragment_to_exploreFragment"
+            app:destination="@id/exploreFragment" />
+        <action
+            android:id="@+id/action_myCourseFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+</navigation>

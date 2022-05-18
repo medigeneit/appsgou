@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="375dp"
+    android:height="812dp"
+    android:viewportWidth="375"
+    android:viewportHeight="812">
+    <group>
+        <clip-path android:pathData="M0,0h375v812h-375z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M400.5,733.5m-69.5,0a69.5,69.5 0,1 1,139 0a69.5,69.5 0,1 1,-139 0" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M143.066,-29.896A69.5,69.5 75.071,1 1,61.104 -84.142,69.5 69.5,75.071 0,1 143.066,-29.896Z" />
+        <path
+            android:fillColor="#313572"
+            android:pathData="M296.046,812.116L372.903,754.937A20,20 64.238,0 1,400.887 759.046L458.066,835.902A20,20 123.618,0 1,453.957 863.887L377.101,921.065A20,20 66.821,0 1,349.117 916.957L291.938,840.1A20,20 66.821,0 1,296.046 812.116z" />
+        <path
+            android:fillColor="#313572"
+            android:pathData="M-0.503,-98.656L70.853,-34.745A20,20 113.179,0 1,72.407 -6.503L8.495,64.852A20,20 108.416,0 1,-19.746 66.406L-91.102,2.495A20,20 0,0 1,-92.656 -25.746L-28.745,-97.102A20,20 113.179,0 1,-0.503 -98.656z" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M-117.5,658.5a118,41 0,1 0,236 0a118,41 0,1 0,-236 0z"
+            android:strokeWidth="1"
+            android:strokeColor="#e2e2e2" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M253.5,99.5a216.5,65 0,1 0,433 0a216.5,65 0,1 0,-433 0z"
+            android:strokeWidth="1"
+            android:strokeColor="#e2e2e2" />
+        <path
+            android:fillColor="#313572"
+            android:pathData="M82,630m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+        <path
+            android:fillColor="#0072bb"
+            android:pathData="M31,698m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M308,47A10,10 0,1 1,298 57,10 10,0 0,1 308,47Z" />
+
+    </group>
+</vector>

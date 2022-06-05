@@ -2,6 +2,7 @@ package com.genesis.genesisonlineuniversity.ui.explore;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -12,6 +13,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.genesis.genesisonlineuniversity.R;
@@ -19,6 +23,7 @@ import com.genesis.genesisonlineuniversity.ui.explore.adapter.ElibraryAdapter;
 import com.genesis.genesisonlineuniversity.ui.explore.adapter.PopularProgramsAdapter;
 import com.genesis.genesisonlineuniversity.ui.explore.adapter.ResourcesAdapter;
 import com.genesis.genesisonlineuniversity.ui.explore.popular_programs.PopularProgrammsActivity;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import java.util.Arrays;
 import java.util.List;
@@ -28,6 +33,7 @@ public class ExploreFragment extends Fragment {
 
     View rootView;
     Context context;
+    RelativeLayout rl2, rl3;
     RecyclerView recyclerView1, recyclerView2, recyclerView3;
     TextView tv_popular_programs, tv_e_library, tv_resources;
 
@@ -85,6 +91,9 @@ public class ExploreFragment extends Fragment {
 
     private void initComponents() {
 
+        rl2 = rootView.findViewById(R.id.rl2);
+        rl3 = rootView.findViewById(R.id.rl3);
+
         recyclerView1 = rootView.findViewById(R.id.recyclerView1);
         recyclerView2 = rootView.findViewById(R.id.recyclerView2);
         recyclerView3 = rootView.findViewById(R.id.recyclerView3);
@@ -114,7 +123,26 @@ public class ExploreFragment extends Fragment {
             startActivity(intent);
         });
 
+        rl3.setOnClickListener(view -> {
+            showBottomSheetDialog();
+        });
 
+
+    }
+
+    //
+    private void showBottomSheetDialog() {
+
+        final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(context, R.style.BSheetDialog);
+        bottomSheetDialog.setContentView(R.layout.bottom_sheet_dialog_explore_notification);
+
+        LinearLayout linear_cross = bottomSheetDialog.findViewById(R.id.linear_cross);
+
+        linear_cross.setOnClickListener(v -> {
+            bottomSheetDialog.dismiss();
+        });
+
+        bottomSheetDialog.show();
     }
 
 

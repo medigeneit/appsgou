@@ -6,31 +6,40 @@
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/back_select.xml" value="0.1495" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/back_tabs.xml" value="0.1495" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/custom_progress_bg1.xml" value="0.156" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/ic_arrow_back2.xml" value="0.147" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/ic_arrow_right.xml" value="0.1365" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/ic_icon_search.xml" value="0.206" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner1.xml" value="0.1365" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner11.xml" value="0.2125" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner12.xml" value="0.1365" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner3.xml" value="0.16" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner5.xml" value="0.156" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner6.xml" value="0.206" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner6_2.xml" value="0.1475" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner7.xml" value="0.206" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner_r_10.xml" value="0.1365" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner_r_14.xml" value="0.1475" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/rounded_corner_r_8.xml" value="0.156" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_intro.xml" value="0.36666666666666664" />
-        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_my_course_details.xml" value="0.16" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_popular_programms.xml" value="0.22" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_popular_programms_details.xml" value="0.2" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_popular_programs_details.xml" value="0.18802083333333333" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/activity_transaction_success.xml" value="0.18" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/bottom_sheet_dialog_explore_notification.xml" value="0.22" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/fragment_account.xml" value="0.25" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/fragment_blog.xml" value="0.36666666666666664" />
-        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/fragment_explore.xml" value="0.25" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/fragment_explore.xml" value="0.18" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/fragment_my_course.xml" value="0.25" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/single_item_elibrary_list.xml" value="0.25" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/single_item_favourite_topic_list.xml" value="0.25" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/single_item_my_course_list.xml" value="0.1" />
-        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/single_item_popular_topic_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/single_item_notification_explore_list.xml" value="0.22" />
+        <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/single_item_popular_topic_list.xml" value="0.25" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/single_item_resources_list.xml" value="0.25" />
         <entry key="..\:/Data/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/layout/slider_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Rifat/Development/GenesisOnlineUniversity/app/src/main/res/drawable/circle_border1.xml" value="0.2740740740740741" />

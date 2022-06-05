@@ -1,4 +1,4 @@
-package com.genesis.genesisonlineuniversity.ui.my_course.adapter;
+package com.genesis.genesisonlineuniversity.ui.explore.adapter;
 
 
 import android.content.Context;
@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -20,12 +19,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.genesis.genesisonlineuniversity.R;
 import com.genesis.genesisonlineuniversity.ui.explore.popular_programs.PopularProgrammsDetailsActivity;
-import com.genesis.genesisonlineuniversity.ui.my_course.MyCourseDetailsActivity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyCourseAdapter extends RecyclerView.Adapter<MyCourseAdapter.MyCourseViewHolder> {
+public class NotificationExploreAdapter extends RecyclerView.Adapter<NotificationExploreAdapter.NotificationExploreViewHolder> {
 
     private List<String> dataSet = new ArrayList<>();
     private List<String> popularTopicImageList = new ArrayList<>();
@@ -48,7 +46,7 @@ public class MyCourseAdapter extends RecyclerView.Adapter<MyCourseAdapter.MyCour
 
     private AdapterCallback adapterCallback;
 
-    public MyCourseAdapter(Context context) {
+    public NotificationExploreAdapter(Context context) {
         this.context = context;
 
         try {
@@ -60,7 +58,7 @@ public class MyCourseAdapter extends RecyclerView.Adapter<MyCourseAdapter.MyCour
     }
 
 
-    public MyCourseAdapter(Context context, Cursor cursor) {
+    public NotificationExploreAdapter(Context context, Cursor cursor) {
         dataCursor = cursor;
         this.context = context;
         Log.d("tag1wwwww", " adapter: ");
@@ -90,10 +88,10 @@ public class MyCourseAdapter extends RecyclerView.Adapter<MyCourseAdapter.MyCour
 
 
     @Override
-    public MyCourseViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public NotificationExploreViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.single_item_my_course_list, parent, false);
-        MyCourseViewHolder myViewHolder = new MyCourseViewHolder(view);
+                .inflate(R.layout.single_item_notification_explore_list, parent, false);
+        NotificationExploreViewHolder myViewHolder = new NotificationExploreViewHolder(view);
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -105,7 +103,7 @@ public class MyCourseAdapter extends RecyclerView.Adapter<MyCourseAdapter.MyCour
 
 
     @Override
-    public void onBindViewHolder(final MyCourseAdapter.MyCourseViewHolder holder, int position) {
+    public void onBindViewHolder(final NotificationExploreAdapter.NotificationExploreViewHolder holder, int position) {
         TextView txtSlNo = holder.txtSlNo;
         TextView tv_title = holder.tv_title;
         TextView tv_price = holder.tv_price;
@@ -115,22 +113,15 @@ public class MyCourseAdapter extends RecyclerView.Adapter<MyCourseAdapter.MyCour
         ImageView imageView = holder.imageView;
         ImageView imageViewTick = holder.imageViewTick;
         CardView card1 = holder.card1;
-        ProgressBar progressBar = holder.progressBar;
 
 
 //        imageView.setAnimation(AnimationUtils.loadAnimation(context, R.anim.fade_transition_animation));
 //        cardview.setAnimation(AnimationUtils.loadAnimation(context, R.anim.fall_down_animation));
 
-         int currentProgress = 0;
-
 
         String title = popularTopicTitleList.get(position);
         String image = popularTopicImageList.get(position);
         String price = popularTopicPriceList.get(position);
-
-        currentProgress = currentProgress + 20;
-        progressBar.setProgress(currentProgress);
-        progressBar.setMax(100);
 
 
         Log.d("tag333", " popularTopicTitleList...: " + popularTopicTitleList);
@@ -139,8 +130,8 @@ public class MyCourseAdapter extends RecyclerView.Adapter<MyCourseAdapter.MyCour
 //        tv_title.setText(doctorInfo.getDiseases_bangla());
 //        tv_doctor_designation.setText(doctorInfo.getTreeName_bangla());
 //
-//        tv_title.setText(title);
-//        tv_price.setText("\u09F3 " + price + " BDT");
+        tv_title.setText(title);
+        tv_price.setText("\u09F3 " + price + " BDT");
 //        tv_doctor_designation.setText(doctorInfo3);
 
 //        ViewGroup.MarginLayoutParams marginLayoutParams = new ViewGroup.MarginLayoutParams(mRecyclerView.getLayoutParams());
@@ -148,10 +139,10 @@ public class MyCourseAdapter extends RecyclerView.Adapter<MyCourseAdapter.MyCour
 //        mRecyclerView.setLayoutParams(marginLayoutParams);
 
 
-//        if (position > 3) {
-//            card1.setVisibility(View.GONE);
-//            holder.itemView.setLayoutParams(new RecyclerView.LayoutParams(0, 0));
-//        }
+        if (position > 3) {
+            card1.setVisibility(View.GONE);
+            holder.itemView.setLayoutParams(new RecyclerView.LayoutParams(0, 0));
+        }
 
 
 //        if (allItemStatus == true) {
@@ -170,30 +161,22 @@ public class MyCourseAdapter extends RecyclerView.Adapter<MyCourseAdapter.MyCour
 
         Glide.with(context).load(image).into(imageView);
 
-        card1.setOnClickListener(new View.OnClickListener() {
+        relative1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, MyCourseDetailsActivity.class);
+
+                Intent intent = new Intent(context, PopularProgrammsDetailsActivity.class);
                 context.startActivity(intent);
+
+
             }
-        });
-
-        linear1.setOnClickListener(v -> {
-            Intent intent = new Intent(context, MyCourseDetailsActivity.class);
-            context.startActivity(intent);
-        });
-
-
-        relative1.setOnClickListener(v -> {
-            Intent intent = new Intent(context, MyCourseDetailsActivity.class);
-            context.startActivity(intent);
         });
 
 
     }
 
 
-    class MyCourseViewHolder extends RecyclerView.ViewHolder {
+    class NotificationExploreViewHolder extends RecyclerView.ViewHolder {
 
         TextView txtSlNo;
         TextView tv_title;
@@ -206,19 +189,15 @@ public class MyCourseAdapter extends RecyclerView.Adapter<MyCourseAdapter.MyCour
         ImageView imageViewTick;
         CardView card1;
 
-        ProgressBar progressBar;
-
-        public MyCourseViewHolder(View itemView) {
+        public NotificationExploreViewHolder(View itemView) {
             super(itemView);
             tv_title = itemView.findViewById(R.id.tv_title);
-            tv_price = itemView.findViewById(R.id.tv_price);
+//            tv_price = itemView.findViewById(R.id.tv_price);
             imageView = itemView.findViewById(R.id.imageView);
             imageViewTick = itemView.findViewById(R.id.imageViewTick);
             relative1 = itemView.findViewById(R.id.relative1);
             linear1 = itemView.findViewById(R.id.linear1);
             card1 = itemView.findViewById(R.id.card1);
-
-            progressBar = itemView.findViewById(R.id.progressBar);
 
         }
     }

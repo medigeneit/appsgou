@@ -1,9 +1,9 @@
 package com.genesis.genesisonlineuniversity.ui.my_course;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -18,7 +18,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.genesis.genesisonlineuniversity.R;
-import com.genesis.genesisonlineuniversity.ui.explore.popular_programs.PopularProgrammsActivity;
 import com.genesis.genesisonlineuniversity.ui.my_course.adapter.MyCourseAdapter;
 
 import java.util.Arrays;
@@ -88,6 +87,7 @@ public class MyCourseFragment extends Fragment {
 
 
     private void initComponents() {
+        final MediaPlayer sound1 = MediaPlayer.create(getContext(), R.raw.sound1);
 
         recyclerView1 = rootView.findViewById(R.id.recyclerView1);
         recyclerView2 = rootView.findViewById(R.id.recyclerView2);
@@ -113,6 +113,7 @@ public class MyCourseFragment extends Fragment {
         linear_complete = rootView.findViewById(R.id.linear_complete);
 
         item1.setOnClickListener(v -> {
+            sound1.start();
             select.animate().x(0).setDuration(100);
             item1.setTextColor(Color.WHITE);
             item2.setTextColor(def);
@@ -122,6 +123,7 @@ public class MyCourseFragment extends Fragment {
         });
 
         item2.setOnClickListener(v -> {
+            sound1.start();
             item1.setTextColor(def);
             item2.setTextColor(Color.WHITE);
             int size = item2.getWidth();

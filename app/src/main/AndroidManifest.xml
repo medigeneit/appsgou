@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GenesisOnlineUniversity">
         <activity
-            android:name=".WebViewActivity"
+            android:name=".ui.my_course.MyCourseDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.WebViewActivity"
             android:exported="false" />
         <activity
             android:name=".ui.explore.popular_programs.TransactionSuccessActivity"

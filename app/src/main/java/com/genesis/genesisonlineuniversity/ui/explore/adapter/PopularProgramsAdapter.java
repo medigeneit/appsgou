@@ -216,7 +216,6 @@ public class PopularProgramsAdapter extends RecyclerView.Adapter<PopularPrograms
             tv_title = itemView.findViewById(R.id.tv_title);
             tv_price = itemView.findViewById(R.id.tv_price);
             imageView = itemView.findViewById(R.id.imageView);
-            imageViewTick = itemView.findViewById(R.id.imageViewTick);
             relative1 = itemView.findViewById(R.id.relative1);
             linear1 = itemView.findViewById(R.id.linear1);
             card1 = itemView.findViewById(R.id.card1);

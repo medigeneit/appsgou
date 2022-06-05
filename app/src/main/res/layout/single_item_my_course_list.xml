@@ -13,6 +13,7 @@
     android:elevation="2dp"
     android:gravity="center"
     android:orientation="vertical"
+    android:clickable="true"
     app:ignore="NamespaceTypo"
     card_view:cardCornerRadius="10dp"
     card_view:cardElevation="2dp">
